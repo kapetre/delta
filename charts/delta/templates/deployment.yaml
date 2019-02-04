@@ -26,4 +26,4 @@ spec:
         resources:
 {{ toYaml .Values.resources | indent 12 }}
       imagePullSecrets:
-      - myregistrykey
+      - name: myregistrykey
